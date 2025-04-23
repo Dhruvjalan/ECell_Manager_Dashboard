@@ -24,7 +24,6 @@
   margin-left: 16px;
   text-decoration: none;
   padding: 6px;
-  color: black
 }
 .navbar a:hover {
   color: #f1356d;
@@ -40,9 +39,6 @@
   padding: 10px 16px;
   margin: 20px 0;
   border-bottom: 1px solid #fafafa;
-  /* background-color: black; */
-  align-content: center;
-
 }
 .blog-preview:hover {
   box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
@@ -51,55 +47,10 @@
   font-size: 20px;
   color: #f1356d;
   margin-bottom: 8px;
-  
 }
 .blog-preview a{
   text-decoration: none;
-  color: #f1356d;
-  align-self: center;
 }
-h3{
-  text-decoration: none;
-  color: #f1356d;
-  text-align: center;
-}
-
-.LandingHome{
-  justify-self: center;
-  align-self: center;
-  /* background-color: black; */
-  margin-top: 5rem;
-  width: auto
-  
-}
-.LandingHome h1{
-  justify-self: center;
-  align-self: center;
-  /* background-color: black; */
-  margin-top: 5rem;
-  font-weight: bold;
-  
-}
-.LandingHome button{
-  text-decoration: none;
-  margin: 2rem;
-  justify-self: center;
-  align-items: center;
-  
-}
-
-.LandingHome button a{
-  text-decoration: none;
-  color: black
-}
-
-canvas{
-  
-  align-self : center;
-  margin: 5rem
-}
-  /* background-color: black; */
-
 
 /* blog details page */
 .blog-details h2 {
@@ -122,14 +73,8 @@ canvas{
   display: flex;
   flex-direction: column;
 }
-.Buttons .OptionButton0{
+.Buttons .OptionButton{
   background: darkblue;
-  color: white;
-  margin: 0.8rem
-}
-
-.Buttons .OptionButton1{
-  background: #f1356d;
   color: white;
   margin: 0.8rem
 }

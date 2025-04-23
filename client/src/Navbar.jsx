@@ -4,10 +4,8 @@ import { useParams } from "react-router-dom";
 const Navbar = ({userid}) => {
     return ( 
         <nav className="navbar">
-            <h1>Pollify</h1>
+            <h1>The Dojo Poll</h1>
             <div className='Links'>
-            <Link to={`/`}>LogOut</Link>
-
             <Link to={`/${userid}/home`}>Home</Link>
             <Link to={`/${userid}/Search`}>Search</Link>
             

@@ -6,7 +6,6 @@ import axios from 'axios';
 const Login = () => {
     const [name,setName] = useState()
     const [password,setPassword] = useState()
-    const [text,setText] = useState('')
 
     const navigate = useNavigate()
     const handleSubmit = (e) => {
@@ -16,10 +15,8 @@ const Login = () => {
         .then(result =>{ 
             console.log(result)
             if(result.data === 'Success'){
-                navigate(`/${name}/home`)
+                navigate(`${name}/home`)
             }
-            setText(result.data)
-
         })
         .catch(err => console.log("Axios Error: ", err))
         console.log('name: ',name)
@@ -27,7 +24,7 @@ const Login = () => {
     };
 
     return (
-        <div className="d-flex justify-content-center align-items-center vh-100">
+        <div className="d-flex justify-content-center clign-items-center bg-secondary vh-100">
             <div className="bg-white p-3 rounded w-25">
                 <h2>Log - In</h2>
                 <form>
@@ -55,14 +52,13 @@ const Login = () => {
                             className="form-control rounded-0" 
                             onChange={e=>setPassword(e.target.value)} />
                     </div>
-                    <button type="submit" className="btn btn-success w-100 rounded-0" onClick={handleSubmit} style={{ backgroundColor: '#f1356d' }}>
+                    <button type="submit" className="btn btn-success w-100 rounded-0" onClick={handleSubmit}>
                         Login
                     </button>
                     </form>
-                    <p>{text}</p>
+                    <p>Already Have an Account</p>
                     {/* <Link to = "/login" type="submit" className="btn btn-default border w-100 bg-light rounded-0 text-decoration-none"> */}
-                        <p>Don't Have an account?</p>
-                        <a href='/register'> Register here</a>
+                        <a href='/register'>Don't Have an account? Register here</a>
                     {/* </Link> */}
             </div>
         </div>
