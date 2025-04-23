@@ -58,11 +58,11 @@ Start taking control of your life today — one dashboard to rule them all!
 1. download the zip file from the main branch
 2. open in an ide
 3. open two terminals
-  a. open the path '/client/src' run
+  a. open the path '/client/src'
 
-      npm i
+      <pre>npm i
    
-      npm run dev
+      npm run dev </pre>
    
   b. open the path '/server'
   
