@@ -11,7 +11,6 @@ const Login = () => {
     const navigate = useNavigate()
     const handleSubmit = (e) => {
         e.preventDefault();
-        // Handle login logic here
         axios.post('http://localhost:4000/login', { name, password })
         .then(result =>{ 
             console.log(result)
@@ -60,10 +59,7 @@ const Login = () => {
                     </button>
                     </form>
                     <p>{text}</p>
-                    {/* <Link to = "/login" type="submit" className="btn btn-default border w-100 bg-light rounded-0 text-decoration-none"> */}
-                        <p>Don't Have an account?</p>
-                        <a href='/register'> Register here</a>
-                    {/* </Link> */}
+                    
             </div>
         </div>
     );

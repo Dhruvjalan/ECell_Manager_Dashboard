@@ -5,7 +5,7 @@ const Counter = ({n, pre, post}) => {
 
   useEffect(() => {
     let count = 0;
-    const target = n; // <final number>
+    const target = n;
     const duration = 2000;
     const steps = 100;
 

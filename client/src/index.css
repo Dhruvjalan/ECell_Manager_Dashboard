@@ -241,7 +241,6 @@ th, td {
   border-bottom: 1px solid var(--text-color);
 }
 
-/* Todo Section */
 .todo-title {
   justify-self: left;
   margin-bottom: 2rem;
@@ -299,6 +298,10 @@ th, td {
 /* .Logoutbtn{
   background-color: rgb(225,0,0,0.8);
 } */
+
+.LandingHome li{
+  list-style-type: none;
+}
 
 .edit-btn, .Homebtn {
   background: var(--link-color);

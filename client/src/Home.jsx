@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Home = () => {
     return (
-        <div className="Create LandingHome" style={{margin:'10rem'}}>
+        <div className="LandingHome" style={{margin:'10rem'}}>
             <h1>Homepage</h1>
             <button><Link to='/login'>Login</Link></button>
             <h1>LifeBoard – A Beautiful & Interactive Personal Dashboard Website</h1>

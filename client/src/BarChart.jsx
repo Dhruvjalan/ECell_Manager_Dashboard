@@ -26,30 +26,7 @@ const BarChart = ({bardata,title}) => {
     })
     const height = 400;
     const width = 400;
-    // useEffect(() => {
-    //     axios.post("http://localhost:4000/getuserdata", { name })
-    //         .then(result => {
-    //             const userData = result.data;
-    //             const i = 1;
-    //             const height = userData.height || 400;
-    //             const width = userData.width || 400;
-    //             if (userData && userData.Expenditure) {
-    //                 const newLabels = userData.Expenditure.map(element => element.title);
-    //                 const newValues = userData.Expenditure.map(element => element.Spent);
-    //                 setData({
-    //                     labels: newLabels,
-    //                     datasets: [{
-    //                         ...data.datasets[0],
-    //                         data: newValues,
-    //                         backgroundColor: ['rgb(241, 53, 109)','rgb(248, 94, 140)','rgb(239, 128, 161)'],
-    //                     }],
-                        
-    //                 });
-    //             }
-    //         })
-    //         .catch(err => console.log("Axios error:", err));
-    // }, []); // Only depend on `id`
-
+  
     useEffect(()=>{
         const styles = getComputedStyle(document.body);
         setColors({
@@ -58,7 +35,6 @@ const BarChart = ({bardata,title}) => {
             textColor: styles.getPropertyValue("--text-color").trim(),
             blackwhite: styles.getPropertyValue("--black-white").trim(),
         });
-        // console.log("colors on l61",colors, 'theme=',theme)
     },[theme])
 
     const data = {
@@ -71,7 +47,6 @@ const BarChart = ({bardata,title}) => {
             pointBorderColor: 'aqua'
         }]
     }
-    // console.log("colors on l74",colors, "theme=",theme)
     const options = {
         responsive: true,
         plugins: {
@@ -96,7 +71,6 @@ const BarChart = ({bardata,title}) => {
                 },
             },
         }
-        // maintainAspectRatio : false,
     };
 
     return (

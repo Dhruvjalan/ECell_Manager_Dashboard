@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import LineChart from './LineChart';
 import PieChart from './PieChart';
-import Counter from './counter';
+import Counter from './Counter';
 import Stocks from './stocks';
 
 function Money({name,data,theme}) {
