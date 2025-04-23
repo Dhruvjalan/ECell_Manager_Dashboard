@@ -59,8 +59,13 @@ Start taking control of your life today — one dashboard to rule them all!
 2. open in an ide
 3. open two terminals
   a. open the path '/client/src' run
+
       npm i
+   
       npm run dev
+   
   b. open the path '/server'
+  
       npm i
+      
       nodemon index
