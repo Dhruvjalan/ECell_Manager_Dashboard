@@ -55,17 +55,23 @@ Start taking control of your life today — one dashboard to rule them all!
 
 
 ## How to use:
-1. download the zip file from the main branch
-2. open in an ide
-3. open two terminals
-  a. open the path '/client/src'
+1. Download the zip file from the main branch
+2. Open in an ide
+3. Open two terminals
+  a. Open the path '/client/src'
 
       <pre>npm i
    
       npm run dev </pre>
+
+## Some Users you can login with
+This is an example website. You can login the website using the following users:
+
+1. {'username': 'Dhruv', 'password': '1'}
+
+2. {'username': 'Aarav', 'password': '1234'}
+
+3. {'username': 'Ishita', 'password': '4321'}
+
+4. {'username': 'Ravi', 'password': 'admin'}
    
-  b. open the path '/server'
-  
-      npm i
-      
-      nodemon index
