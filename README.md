@@ -58,6 +58,7 @@ Start taking control of your life today — one dashboard to rule them all!
 1. Download the zip file from the main branch
 2. Open in an ide
 3. Open two terminals
+   
   a. Open the path '/client/src'
 
       <pre>npm i
