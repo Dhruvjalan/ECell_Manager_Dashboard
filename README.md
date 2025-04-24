@@ -78,4 +78,20 @@ This is an example website. You can login the website using the following users:
 3. {'username': 'Ishita', 'password': '4321'}
 
 4. {'username': 'Ravi', 'password': 'admin'}
-   
+
+
+## Images
+### Overall Working video
+
+
+### Light Theme
+![image](https://github.com/user-attachments/assets/613ce272-cd32-45a3-834f-e0a7e0d04868)
+![image](https://github.com/user-attachments/assets/18ab71e3-a214-4e1d-a2c1-526a2845034d)
+
+### Dark Theme
+![image](https://github.com/user-attachments/assets/6ff65e7c-5b4c-4432-94d9-26905493a5cc)
+![image](https://github.com/user-attachments/assets/f45a95f3-1613-4d55-9559-ad2fba578c47)
+
+### Responsiveness Video
+
+
