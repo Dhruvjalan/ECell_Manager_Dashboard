@@ -84,6 +84,9 @@ This is an example website. You can login the website using the following users:
 ### Overall Working video
 https://drive.google.com/file/d/1g8S6z-M6xylyAFdkOL-DGejUqRoTOvKm/view?usp=sharing 
 
+### Responsiveness Video
+https://drive.google.com/file/d/10ok_hHY4e04CeTQaRJ09VieXymjg555O/view?usp=sharing 
+
 ### Light Theme
 ![image](https://github.com/user-attachments/assets/613ce272-cd32-45a3-834f-e0a7e0d04868)
 ![image](https://github.com/user-attachments/assets/18ab71e3-a214-4e1d-a2c1-526a2845034d)
@@ -92,6 +95,5 @@ https://drive.google.com/file/d/1g8S6z-M6xylyAFdkOL-DGejUqRoTOvKm/view?usp=shari
 ![image](https://github.com/user-attachments/assets/6ff65e7c-5b4c-4432-94d9-26905493a5cc)
 ![image](https://github.com/user-attachments/assets/f45a95f3-1613-4d55-9559-ad2fba578c47)
 
-### Responsiveness Video
-https://drive.google.com/file/d/10ok_hHY4e04CeTQaRJ09VieXymjg555O/view?usp=sharing 
+
 
