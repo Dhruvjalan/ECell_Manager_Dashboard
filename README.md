@@ -61,7 +61,7 @@ Start taking control of your life today — one dashboard to rule them all!
   a. Open the path '/client/src'
 
       <pre>npm i
-      npm run dev </pre>
+        npm run dev </pre>
   b. open the path '/server'
     <pre>npm i
       nodemon index </pre>
