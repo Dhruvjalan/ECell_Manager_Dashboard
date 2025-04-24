@@ -61,8 +61,10 @@ Start taking control of your life today — one dashboard to rule them all!
   a. Open the path '/client/src'
 
       <pre>npm i
-   
       npm run dev </pre>
+  b. open the path '/server'
+    <pre>npm i
+      nodemon index </pre>
 
 ## Some Users you can login with
 This is an example website. You can login the website using the following users:
